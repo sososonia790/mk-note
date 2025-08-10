@@ -1,0 +1,279 @@
+{
+  "main": {
+    "id": "415ff52bb5831064",
+    "type": "split",
+    "children": [
+      {
+        "id": "6930e1065ba2b70f",
+        "type": "split",
+        "children": [
+          {
+            "id": "361bfc0fb200314c",
+            "type": "tabs",
+            "dimension": 80.62015503875969,
+            "children": [
+              {
+                "id": "cf759ec79eb00279",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "20250809_NotebookLM.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "20250809_NotebookLM"
+                }
+              },
+              {
+                "id": "3affd4106416a0ea",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "CLIに投げるプロンプト.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "CLIに投げるプロンプト"
+                }
+              },
+              {
+                "id": "9ac0c3158f6a96ac",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Qiita　目次.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Qiita　目次"
+                }
+              },
+              {
+                "id": "e81b28933c3dda81",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Qiita　目次.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Qiita　目次"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "24ad71ccd5ec17f4",
+            "type": "tabs",
+            "dimension": 19.379844961240313,
+            "children": [
+              {
+                "id": "f9a2b236a8b9d134",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "C:\\Qiita記事作成\\会社",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "C:\\Windows\\System32\\cmd.exe",
+                        "name": "",
+                        "platforms": {
+                          "win32": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: C:\\Windows\\System32\\conhost.exe"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "299dddcd27dff72c",
+    "type": "split",
+    "children": [
+      {
+        "id": "55e37515841ae8eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e452b063fcf03e99",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "e1dfed19fd9ece2b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "32e324ed7d22043d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "82b1ce1fa15e8eae",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4264b822d8b4dfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d562359bb7f8504a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "20250809_記事草案.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "20250809_記事草案へのバックリンク"
+            }
+          },
+          {
+            "id": "666310f8015ee41b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "20250809_記事草案.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "20250809_記事草案からのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "a05ac17f9e835197",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "d333185bb14df996",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "20250809_記事草案.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "20250809_記事草案のアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "e452b063fcf03e99",
+  "lastOpenFiles": [
+    "Obsidian + Gemini CLIで最速で自動記事作成.md",
+    "Qiita　目次.md",
+    "CLIに投げるプロンプト.md",
+    "Pasted image 20250810142734.png",
+    "20250809_NotebookLM.md",
+    "Qiita Example.md",
+    "AWS.md",
+    "Note Example.md"
+  ]
+}

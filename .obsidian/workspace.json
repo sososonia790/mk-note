@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "2f50802e7ce2f0bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "78b9118955b96ef0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb60ef94a7daf856",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Qiita記事作成/会社/CLIに投げるプロンプト.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLIに投げるプロンプト"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aa8926ea1b850fe9",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ada612f5fd85dc2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61955827cbd8ca34",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "8ea4841636446522",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "325977b74f7c942a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ce27fa1df6559c00",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0b32cf7204d0713",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d75161b91b9068d2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Qiita記事作成/会社/CLIに投げるプロンプト.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "CLIに投げるプロンプトへのバックリンク"
+            }
+          },
+          {
+            "id": "d73ae248a02c7d0e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Qiita記事作成/会社/CLIに投げるプロンプト.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "CLIに投げるプロンプトからのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "7cc4547493425f0b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "9fd9a1d834fa2ce9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Qiita記事作成/会社/CLIに投げるプロンプト.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "CLIに投げるプロンプトのアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false
+    }
+  },
+  "active": "eb60ef94a7daf856",
+  "lastOpenFiles": [
+    "Qiita記事作成/会社/Obsidian + Gemini CLIで最速で自動記事作成.md",
+    "Qiita記事作成/会社/AWS.md",
+    "Qiita記事作成/会社/20250809_NotebookLM.md"
+  ]
+}
