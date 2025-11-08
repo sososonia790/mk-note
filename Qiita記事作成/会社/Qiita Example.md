@@ -166,7 +166,7 @@ NotebookLMで自分の頭では把握できない情報はこれから数えき�
 - [情報整理](https://qiita.com/tags/%e6%83%85%e5%a0%b1%e6%95%b4%e7%90%86)
 - [NotebookLM](https://qiita.com/tags/notebooklm)
 
-投稿日 2025年08月10日33 views33 ビュー
+投稿日 2025年08月10日33 
 
 ## まえがき
 
