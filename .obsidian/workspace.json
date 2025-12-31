@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eb60ef94a7daf856",
+            "id": "30963222f21ae317",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Qiita記事作成/会社/CLIに投げるプロンプト.md",
+                "file": "EC2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLIに投げるプロンプト"
+              "title": "EC2"
+            }
+          },
+          {
+            "id": "8cb88cef5f6ed1ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWSノート/2025-08-03.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-03"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 221.5
   },
   "right": {
     "id": "ce27fa1df6559c00",
@@ -160,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
@@ -168,10 +184,39 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "eb60ef94a7daf856",
+  "active": "8cb88cef5f6ed1ab",
   "lastOpenFiles": [
+    "Qiita記事作成/会社/Qiita　目次.md",
+    "Qiita記事作成/会社/Qiita Example.md",
     "Qiita記事作成/会社/Obsidian + Gemini CLIで最速で自動記事作成.md",
+    "Qiita記事作成/会社/CLIに投げるプロンプト.md",
     "Qiita記事作成/会社/AWS.md",
-    "Qiita記事作成/会社/20250809_NotebookLM.md"
+    "Qiita記事作成/会社/20250809_NotebookLM.md",
+    "AWSノート/無題のファイル.base",
+    "Untitled.base",
+    "競馬.md",
+    "AWSノート/SAA.md",
+    "saa.md",
+    "aws.md",
+    "無題のファイル.base",
+    "無題のファイル 1.base",
+    "セキュリティ.md",
+    "認証.md",
+    "サーバレス.md",
+    "CloudFront.md",
+    "環境の自動化.md",
+    "S3.md",
+    "Route53.md",
+    "VPC/接続.md",
+    "2025-09-27.md",
+    "VPC",
+    "データベース.md",
+    "AWSノート/2025-08-03.md",
+    "コンテナ.md",
+    "EC2.md",
+    "AWSノート/create a link.md",
+    "AWSノート/Untitled.canvas",
+    "Qiita記事作成/会社/Pasted image 20250810142734.png",
+    "mknote"
   ]
 }
