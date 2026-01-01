@@ -20,14 +20,14 @@ React + TypeScriptでJRA中央競馬の競走馬情報検索Webアプリケー�
     - グローバルスタイル設定
     - _Requirements: 6.1_
 
-- [ ] 2. 型定義とユーティリティ
-  - [ ] 2.1 型定義ファイル作成
+- [x] 2. 型定義とユーティリティ
+  - [x] 2.1 型定義ファイル作成
     - Race, Entry, TrainingData, Horse, Prediction型を定義
     - _Requirements: 2.1, 3.1, 4.2_
-  - [ ] 2.2 LocalStorageユーティリティ作成
+  - [x] 2.2 LocalStorageユーティリティ作成
     - 予想印の保存・読み込み・削除関数
     - _Requirements: 5.3, 5.4, 5.5_
-  - [ ] 2.3 Property Test: 予想印ラウンドトリップ
+  - [x] 2.3 Property Test: 予想印ラウンドトリップ
     - **Property 11: 予想印のラウンドトリップ保存**
     - **Validates: Requirements 5.3, 5.4**
 
