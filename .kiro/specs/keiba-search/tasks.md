@@ -31,20 +31,20 @@ React + TypeScriptでJRA中央競馬の競走馬情報検索Webアプリケー�
     - **Property 11: 予想印のラウンドトリップ保存**
     - **Validates: Requirements 5.3, 5.4**
 
-- [ ] 3. 共通コンポーネント
-  - [ ] 3.1 Headerコンポーネント作成
+- [x] 3. 共通コンポーネント
+  - [x] 3.1 Headerコンポーネント作成
     - ナビゲーションリンク（開催一覧、馬検索）
     - _Requirements: 6.1_
-  - [ ] 3.2 Loadingコンポーネント作成
+  - [x] 3.2 Loadingコンポーネント作成
     - ローディングインジケーター表示
     - _Requirements: 6.3_
-  - [ ] 3.3 ErrorMessageコンポーネント作成
+  - [x] 3.3 ErrorMessageコンポーネント作成
     - エラーメッセージとリトライボタン表示
     - _Requirements: 7.1, 7.2, 7.3_
-  - [ ] 3.4 Property Test: ローディング状態表示
+  - [x] 3.4 Property Test: ローディング状態表示
     - **Property 13: ローディング状態の表示**
     - **Validates: Requirements 6.3**
-  - [ ] 3.5 Property Test: エラー時リトライボタン
+  - [x] 3.5 Property Test: エラー時リトライボタン
     - **Property 14: エラー時のリトライボタン表示**
     - **Validates: Requirements 7.3**
 
