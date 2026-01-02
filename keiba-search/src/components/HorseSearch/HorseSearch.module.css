@@ -1,0 +1,122 @@
+/**
+ * HorseSearch コンポーネントスタイル
+ * Requirements: 4.1, 4.4, 4.5
+ */
+
+.container {
+  padding: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.searchForm {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #DEE2E6;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 150ms ease-in-out;
+}
+
+.searchInput:focus {
+  border-color: #0142C2;
+}
+
+.searchInput::placeholder {
+  color: #6C757D;
+}
+
+.searchButton {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #0142C2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 150ms ease-in-out;
+}
+
+.searchButton:hover:not(:disabled) {
+  background-color: #012E8A;
+}
+
+.searchButton:disabled {
+  background-color: #6C757D;
+  cursor: not-allowed;
+}
+
+.resultCount {
+  margin-bottom: 16px;
+  color: #6C757D;
+  font-size: 14px;
+}
+
+.resultList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.resultItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #FFFFFF;
+  border: 1px solid #DEE2E6;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.resultItem:hover {
+  border-color: #0142C2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.horseInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.horseName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #212529;
+}
+
+.horseDetails {
+  font-size: 14px;
+  color: #6C757D;
+}
+
+.arrow {
+  color: #0142C2;
+  font-size: 20px;
+}
+
+.emptyMessage {
+  text-align: center;
+  padding: 32px;
+  color: #6C757D;
+  font-size: 16px;
+}
+
+.errorMessage {
+  text-align: center;
+  padding: 16px;
+  color: #DC3545;
+  background-color: #F8D7DA;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}

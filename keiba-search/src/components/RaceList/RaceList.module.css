@@ -1,0 +1,72 @@
+/**
+ * RaceList コンポーネントスタイル
+ * Requirements: 1.1, 1.2, 1.3
+ */
+
+.container {
+  padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #212529;
+  margin: 0;
+}
+
+.dateSelector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dateInput {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #212529;
+  cursor: pointer;
+}
+
+.dateInput:focus {
+  outline: none;
+  border-color: #0142C2;
+  box-shadow: 0 0 0 2px rgba(1, 66, 194, 0.2);
+}
+
+.racecourseList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 24px;
+}
+
+.emptyMessage {
+  text-align: center;
+  padding: 48px 16px;
+  color: #6c757d;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .racecourseList {
+    grid-template-columns: 1fr;
+  }
+}

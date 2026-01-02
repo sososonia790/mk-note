@@ -1,0 +1,46 @@
+.mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.mark:hover {
+  transform: scale(1.1);
+}
+
+.empty {
+  background-color: #f0f0f0;
+  color: #999;
+}
+
+.honmei {
+  background-color: #ff4444;
+  color: white;
+}
+
+.taikou {
+  background-color: #ff8800;
+  color: white;
+}
+
+.tanana {
+  background-color: #ffcc00;
+  color: #333;
+}
+
+.renka {
+  background-color: #88cc00;
+  color: white;
+}
+
+.hoshi {
+  background-color: #0088ff;
+  color: white;
+}

@@ -1,0 +1,71 @@
+/**
+ * TrainingChart コンポーネント スタイル
+ * Rechartsで調教タイムグラフ描画
+ * Requirements: 3.3
+ */
+
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.header {
+  background-color: #0142C2;
+  color: #ffffff;
+  padding: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.horseName {
+  font-size: 14px;
+  margin-top: 4px;
+  opacity: 0.9;
+}
+
+.chartWrapper {
+  padding: 16px;
+}
+
+.emptyMessage {
+  padding: 32px;
+  text-align: center;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 12px;
+  border-top: 1px solid #dee2e6;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #212529;
+}
+
+.legendDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.slopeDot {
+  background-color: #28A745;
+}
+
+.cwDot {
+  background-color: #0142C2;
+}

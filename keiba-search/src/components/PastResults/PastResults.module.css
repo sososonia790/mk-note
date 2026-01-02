@@ -1,0 +1,72 @@
+/**
+ * PastResults コンポーネントスタイル
+ * 近5走の成績表示
+ * Requirements: 2.2
+ */
+
+.container {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.result {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+.position {
+  font-weight: bold;
+  min-width: 16px;
+  text-align: center;
+}
+
+.position1 {
+  color: #dc3545;
+}
+
+.position2 {
+  color: #0142C2;
+}
+
+.position3 {
+  color: #28a745;
+}
+
+.positionOther {
+  color: #6c757d;
+}
+
+.racecourse {
+  color: #495057;
+  font-size: 11px;
+}
+
+.distance {
+  color: #6c757d;
+  font-size: 11px;
+}
+
+.noResults {
+  color: #6c757d;
+  font-size: 12px;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .result {
+    padding: 2px 4px;
+    font-size: 11px;
+  }
+
+  .racecourse,
+  .distance {
+    display: none;
+  }
+}
