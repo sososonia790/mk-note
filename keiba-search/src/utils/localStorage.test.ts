@@ -7,7 +7,7 @@ import {
   deletePrediction,
   clearAllPredictions,
 } from './localStorage';
-import { PredictionMark } from '../types';
+import type { PredictionMark } from '../types';
 
 // LocalStorageのモック
 const localStorageMock = (() => {

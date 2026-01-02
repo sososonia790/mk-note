@@ -1,0 +1,156 @@
+/**
+ * 競走馬モックデータ
+ * Requirements: 4.1
+ */
+
+import type { Horse } from '../../types';
+
+export const mockHorses: Horse[] = [
+  {
+    id: 'horse-001',
+    name: 'サンライズアース',
+    birthYear: 2020,
+    sire: 'キズナ',
+    dam: 'サンライズマリー',
+    damSire: 'ディープインパクト',
+    results: [
+      { date: '2024-12-22', racecourse: '阪神', distance: 1600, position: 2, time: '1:33.5' },
+      { date: '2024-11-17', racecourse: '東京', distance: 1600, position: 1, time: '1:32.8' },
+      { date: '2024-10-13', racecourse: '東京', distance: 1800, position: 3, time: '1:46.2' },
+      { date: '2024-09-08', racecourse: '中山', distance: 1600, position: 1, time: '1:33.1' },
+      { date: '2024-06-02', racecourse: '東京', distance: 1600, position: 4, time: '1:34.0' },
+    ],
+  },
+  {
+    id: 'horse-002',
+    name: 'ウインカーネリアン',
+    birthYear: 2019,
+    sire: 'スクリーンヒーロー',
+    dam: 'コスモクリスタル',
+    damSire: 'クロフネ',
+    results: [
+      { date: '2024-12-08', racecourse: '中山', distance: 1600, position: 5, time: '1:34.2' },
+      { date: '2024-11-03', racecourse: '東京', distance: 1600, position: 3, time: '1:33.0' },
+      { date: '2024-10-06', racecourse: '中山', distance: 1600, position: 2, time: '1:33.8' },
+      { date: '2024-08-25', racecourse: '新潟', distance: 1600, position: 1, time: '1:32.5' },
+      { date: '2024-06-09', racecourse: '東京', distance: 1600, position: 6, time: '1:34.5' },
+    ],
+  },
+  {
+    id: 'horse-003',
+    name: 'ナミュール',
+    birthYear: 2019,
+    sire: 'ハービンジャー',
+    dam: 'サングレアル',
+    damSire: 'ディープインパクト',
+    results: [
+      { date: '2024-11-17', racecourse: '東京', distance: 1600, position: 1, time: '1:31.8' },
+      { date: '2024-10-13', racecourse: '東京', distance: 1800, position: 2, time: '1:45.5' },
+      { date: '2024-06-02', racecourse: '東京', distance: 1600, position: 1, time: '1:32.0' },
+      { date: '2024-04-07', racecourse: '阪神', distance: 1600, position: 3, time: '1:33.2' },
+      { date: '2024-02-18', racecourse: '東京', distance: 1600, position: 2, time: '1:32.5' },
+    ],
+  },
+  {
+    id: 'horse-004',
+    name: 'ソウルラッシュ',
+    birthYear: 2019,
+    sire: 'ルーラーシップ',
+    dam: 'ソウルフルヴォイス',
+    damSire: 'シンボリクリスエス',
+    results: [
+      { date: '2024-12-22', racecourse: '阪神', distance: 1600, position: 4, time: '1:33.8' },
+      { date: '2024-11-17', racecourse: '東京', distance: 1600, position: 5, time: '1:33.2' },
+      { date: '2024-10-13', racecourse: '東京', distance: 1800, position: 1, time: '1:45.0' },
+      { date: '2024-06-02', racecourse: '東京', distance: 1600, position: 2, time: '1:32.2' },
+      { date: '2024-04-07', racecourse: '阪神', distance: 1600, position: 1, time: '1:32.8' },
+    ],
+  },
+  {
+    id: 'horse-005',
+    name: 'セリフォス',
+    birthYear: 2019,
+    sire: 'ダイワメジャー',
+    dam: 'シーフロント',
+    damSire: 'ディープインパクト',
+    results: [
+      { date: '2024-12-08', racecourse: '中山', distance: 1600, position: 1, time: '1:33.0' },
+      { date: '2024-11-03', racecourse: '東京', distance: 1600, position: 2, time: '1:32.5' },
+      { date: '2024-10-06', racecourse: '中山', distance: 1600, position: 3, time: '1:34.0' },
+      { date: '2024-06-09', racecourse: '東京', distance: 1600, position: 1, time: '1:32.0' },
+      { date: '2024-04-14', racecourse: '阪神', distance: 1600, position: 4, time: '1:33.5' },
+    ],
+  },
+  {
+    id: 'horse-006',
+    name: 'ジャスティンカフェ',
+    birthYear: 2019,
+    sire: 'エピファネイア',
+    dam: 'カフェオリンポス',
+    damSire: 'ネオユニヴァース',
+    results: [
+      { date: '2024-12-22', racecourse: '阪神', distance: 1600, position: 3, time: '1:33.6' },
+      { date: '2024-11-17', racecourse: '東京', distance: 1600, position: 4, time: '1:33.0' },
+      { date: '2024-10-13', racecourse: '東京', distance: 1800, position: 5, time: '1:46.5' },
+      { date: '2024-06-02', racecourse: '東京', distance: 1600, position: 3, time: '1:32.5' },
+      { date: '2024-04-07', racecourse: '阪神', distance: 1600, position: 2, time: '1:33.0' },
+    ],
+  },
+  {
+    id: 'horse-007',
+    name: 'マテンロウオリオン',
+    birthYear: 2019,
+    sire: 'ダイワメジャー',
+    dam: 'マテンロウボス',
+    damSire: 'サクラバクシンオー',
+    results: [
+      { date: '2024-12-08', racecourse: '中山', distance: 1600, position: 6, time: '1:34.5' },
+      { date: '2024-11-03', racecourse: '東京', distance: 1600, position: 7, time: '1:33.8' },
+      { date: '2024-10-06', racecourse: '中山', distance: 1600, position: 4, time: '1:34.2' },
+      { date: '2024-08-25', racecourse: '新潟', distance: 1600, position: 2, time: '1:32.8' },
+      { date: '2024-06-09', racecourse: '東京', distance: 1600, position: 5, time: '1:34.0' },
+    ],
+  },
+  {
+    id: 'horse-008',
+    name: 'ダノンスコーピオン',
+    birthYear: 2019,
+    sire: 'ロードカナロア',
+    dam: 'レディスコーピオン',
+    damSire: 'シンボリクリスエス',
+    results: [
+      { date: '2024-12-22', racecourse: '中山', distance: 1600, position: 3, time: '1:35.2' },
+      { date: '2024-12-01', racecourse: '東京', distance: 1600, position: 1, time: '1:34.8' },
+      { date: '2024-11-10', racecourse: '東京', distance: 1400, position: 2, time: '1:22.5' },
+      { date: '2024-10-20', racecourse: '新潟', distance: 1600, position: 5, time: '1:36.1' },
+      { date: '2024-09-15', racecourse: '中山', distance: 1600, position: 4, time: '1:35.8' },
+    ],
+  },
+  // 検索用の追加馬データ
+  {
+    id: 'horse-009',
+    name: 'イクイノックス',
+    birthYear: 2019,
+    sire: 'キタサンブラック',
+    dam: 'シャトーブランシュ',
+    damSire: 'キングヘイロー',
+    results: [
+      { date: '2023-11-26', racecourse: '東京', distance: 2400, position: 1, time: '2:22.6' },
+      { date: '2023-10-29', racecourse: '東京', distance: 2000, position: 1, time: '1:55.2' },
+      { date: '2023-06-25', racecourse: '阪神', distance: 2200, position: 1, time: '2:10.9' },
+    ],
+  },
+  {
+    id: 'horse-010',
+    name: 'リバティアイランド',
+    birthYear: 2020,
+    sire: 'ドゥラメンテ',
+    dam: 'ヤンキーローズ',
+    damSire: 'All American',
+    results: [
+      { date: '2023-11-12', racecourse: '京都', distance: 2200, position: 1, time: '2:12.5' },
+      { date: '2023-10-15', racecourse: '京都', distance: 2000, position: 1, time: '1:58.8' },
+      { date: '2023-05-21', racecourse: '東京', distance: 2400, position: 1, time: '2:23.1' },
+    ],
+  },
+];

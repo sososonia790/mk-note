@@ -1,0 +1,114 @@
+/**
+ * TrainingTable コンポーネント スタイル
+ * 坂路・CW調教タイム表示
+ * Requirements: 3.1, 3.2
+ */
+
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.header {
+  background-color: #0142C2;
+  color: #ffffff;
+  padding: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.horseName {
+  font-size: 14px;
+  margin-top: 4px;
+  opacity: 0.9;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHeader {
+  background-color: #f8f9fa;
+}
+
+.tableHeader th {
+  padding: 12px 8px;
+  text-align: center;
+  font-weight: 600;
+  color: #212529;
+  border-bottom: 2px solid #dee2e6;
+  font-size: 14px;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.table td {
+  padding: 12px 8px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.dateCell {
+  font-weight: 500;
+  color: #212529;
+}
+
+.courseCell {
+  font-weight: 600;
+}
+
+.courseSlope {
+  color: #28A745;
+}
+
+.courseCw {
+  color: #0142C2;
+}
+
+.timeCell {
+  font-family: 'Courier New', monospace;
+  color: #212529;
+}
+
+.timeSeparator {
+  color: #6c757d;
+  margin: 0 2px;
+}
+
+.emptyMessage {
+  padding: 32px;
+  text-align: center;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.courseBadge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.slopeBadge {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.cwBadge {
+  background-color: #cce5ff;
+  color: #004085;
+}

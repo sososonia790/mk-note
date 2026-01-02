@@ -1,0 +1,70 @@
+/**
+ * HorseRow コンポーネントスタイル
+ * 各馬の情報行と近走成績
+ * Requirements: 2.1, 2.2
+ */
+
+.row {
+  border-bottom: 1px solid #dee2e6;
+  transition: background-color 150ms ease-in-out;
+}
+
+.row:hover {
+  background-color: #f8f9fa;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.cell {
+  padding: 12px 8px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #212529;
+}
+
+.horseNumber {
+  font-weight: bold;
+  color: #0142C2;
+  font-size: 16px;
+}
+
+.horseName {
+  text-align: left;
+  font-weight: bold;
+}
+
+.jockey {
+  color: #495057;
+}
+
+.weight {
+  font-size: 13px;
+}
+
+.horseWeight {
+  font-size: 13px;
+  color: #6c757d;
+}
+
+.pastResults {
+  text-align: left;
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+  .cell {
+    padding: 8px 4px;
+    font-size: 12px;
+  }
+
+  .horseNumber {
+    font-size: 14px;
+  }
+
+  .pastResults {
+    display: none;
+  }
+}

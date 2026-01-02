@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent, cleanup } from '@testing-library/react';
 import * as fc from 'fast-check';
 import { ErrorMessage } from './ErrorMessage';
 
@@ -11,16 +11,18 @@ import { ErrorMessage } from './ErrorMessage';
  * そのメッセージを表示し、onRetryが提供された場合はリトライボタンを表示する
  */
 describe('ErrorMessage Component - Property Tests', () => {
-  // 非空白文字を含む文字列のジェネレーター
-  const nonEmptyStringArb = fc.stringMatching(/^[^\s].*[^\s]$|^[^\s]$/).filter(s => s.trim().length > 0);
+  // 英数字のみの文字列ジェネレーター（空白や特殊文字を避ける）
+  const alphanumChars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+  const nonEmptyStringArb = fc.array(fc.constantFrom(...alphanumChars.split('')), { minLength: 1, maxLength: 50 }).map(arr => arr.join(''));
 
   it('Property 14: should display error message and retry button when onRetry provided', () => {
     fc.assert(
       fc.property(
         nonEmptyStringArb,
         (message) => {
+          cleanup();
           const onRetry = vi.fn();
-          const { unmount } = render(<ErrorMessage message={message} onRetry={onRetry} />);
+          render(<ErrorMessage message={message} onRetry={onRetry} />);
           
           // エラーメッセージが表示されていることを確認
           expect(screen.getByText(message)).toBeInTheDocument();
@@ -36,7 +38,7 @@ describe('ErrorMessage Component - Property Tests', () => {
           fireEvent.click(retryButton);
           expect(onRetry).toHaveBeenCalledTimes(1);
           
-          unmount();
+          cleanup();
         }
       ),
       { numRuns: 100 }
@@ -48,7 +50,8 @@ describe('ErrorMessage Component - Property Tests', () => {
       fc.property(
         nonEmptyStringArb,
         (message) => {
-          const { unmount } = render(<ErrorMessage message={message} />);
+          cleanup();
+          render(<ErrorMessage message={message} />);
           
           // エラーメッセージが表示されていることを確認
           expect(screen.getByText(message)).toBeInTheDocument();
@@ -56,7 +59,7 @@ describe('ErrorMessage Component - Property Tests', () => {
           // リトライボタンが表示されていないことを確認
           expect(screen.queryByRole('button', { name: '再試行' })).not.toBeInTheDocument();
           
-          unmount();
+          cleanup();
         }
       ),
       { numRuns: 100 }

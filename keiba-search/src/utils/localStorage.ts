@@ -1,4 +1,4 @@
-import { PredictionMark, StoredPredictions } from '../types';
+import type { PredictionMark, StoredPredictions } from '../types';
 
 const PREDICTION_KEY = 'keiba_predictions';
 
